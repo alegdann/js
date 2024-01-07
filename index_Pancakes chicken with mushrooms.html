@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script src="https://kit.fontawesome.com/882d561f07.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="container-fluid header_menu">
+  <div class="row main2">
+    <div class="col header_btn">
+      <a href="index.html">Главная</a>
+      <a href="index.html#menu">Меню</a>
+      <a href="">Контакты</a>
+    </div>
+    <div class="col logo">
+      <a href="index.html"><img src="images/Логоheader.png" alt="#"/></a>
+    </div>
+    <div class="col ">
+      <div class="header_icons">
+        <div class="lang">
+          <select name="language" id="lang">
+            <option>RU</option>
+            <option>UA</option>
+          </select>
+        </div>
+        <a href=""><i class="fas fa-phone-alt"></i></a>
+        <a href=""><i class="fas fa-search"></i></a>
+        <a href=""><i class="far fa-user"></i></a>
+        <a href=""><i class="far fa-heart"></i></a>
+        <a href=""><i class="fas fa-shopping-basket"></i></a>
+      </div>
+    </div>
+  </div>
+</header>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+    <li class="breadcrumb-item"><a href="#">Меню</a></li>
+    <li class="breadcrumb-item"><a href="index_menu_blini.html">Блины</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Блины курица с грибами</li>
+  </ol>
+</nav>
+<section>
+  <div class="conteiner-fluid food">
+    <div class="row">
+  <div class="col main_slick">
+    <div id="carousel" class="slider">
+      <div data-thumb="images/блины2.png"><img src="images/блины2.png" alt=""></div>
+      <div data-thumb="images/Блины%20курица%20с%20грибами2.png"><img src="images/блины3.png" alt=""></div>
+      <div data-thumb="images/Блины%20курица%20с%20грибами3.png"><img src="images/Блины%20курица%20с%20грибами3.png" alt=""></div>
+    </div>
+    </div>
+    <div class="col food_info">
+    <h1>Блины курица с грибами</h1>
+    <h3>Есть в наличии</h3>
+    <h2>Вес</h2>
+
+    <p><b>Состав:</b><br>
+      Курятина (обрушенного мяса птицы 26%), вода <br>
+      питьевая, мука пшеничная высшего сорта, яйца <br>
+      куриные пищевые, грибы шампиньоны, белок соевый <br>
+      гидратированный, масло подсолнечное, сахар, лук <br>
+      репчатый, соль поваренная пищевая, перец черный <br>
+      молотый.</p>
+
+        <button class="btn " type="submit">В корзину</button>
+    </div>
+  </div>
+  </div>
+</section>
+<section>
+  <div class="coteiner-fluid">
+    <div class="row">
+      <div class="col-12 deteils">
+        <a onclick="toggle(hidden_content)">Детали</a>
+        <a onclick="toggle(hidden_content)">Отзывы</a>
+        <a onclick="toggle(hidden_content)">Доставка</a>
+        <div id="hidden_content" style="display: none;"></div>
+        <script>
+          function toggle(el) {
+            el.style.display = (el.style.display == 'none') ? '' : 'block'
+          }
+        </script>
+
+      </div>
+
+      <div class="col-12 info_deteils">
+        <p><b>Срок годности: </b></p>
+        <p>180 суток при температуре не выше -18 С или при минус 10 — не более 90 суток. </p>
+        <p><b>Пищевая ценность в 100г продукта: </b></p>
+        <p>белки — 7,9 г, жиры — 9,4 г, углеводы — 15,3 г. Энергетическая ценность (калорийность) в 100 г продукта: 926 кДж (221 ккал).</p>
+        <p><b>Способ приготовления: </b></p>
+        <p>Блины обжаривают на сковороде до образования золотистой корочки или <br>
+          помещают на сковороду или противень, смазанные растительным маслом, и запекают при температуре 200-220 градусов в течени <br>
+          2-3 минут. При использовании микроволновой печи замороженные изделия освобождают от упаковки и <br>
+          сразу помещают в микроволновую печь. Режим разморозки и разогрева изделий согласно инструкции <br>
+          по эксплуатации микроволновой печи. Подают с соусами или сметаной. Полуфабрикаты перед <br>
+          употреблением должны быть приготовлены. Не позволено повторно замораживать. Номер партии <br>
+          соответствует партии изготовления.
+        </p>
+      </div>
+
+      <div class="col-12 info_reviews">
+        <img src="/images/Mask%20Group.png" alt="">
+        <p>
+          Очень довольна этими блинчиками, покупаю уже не первый раз! Беру с собой их на <br>
+          работу, так как готовить их очень просто, а получаются очень сытными. Так же брала <br>
+          блинчики с вишней — тоже меня впечатлили.
+        </p>
+      </div>
+      <div class="col-12 info_delivery">
+        <div class="delivery_1">
+        <p>
+          <b>Устловия доставки</b>
+        </p>
+        <ul>
+          <li>От 500 грн <span>беслатно</span></li>
+          <li>До 50 грн <span>50 грн</span></li>
+          <li>Время доставки <span>от 30 минут</span></li>
+        </ul>
+        <p>
+          <b>Способ оплаты</b>
+        </p>
+        <ul>
+          <li>Наличными курьеру при получении</li>
+          <li>Картой при получении</li>
+          <li>Картой на сайте</li>
+        </ul>
+        <p>
+          <b>Режим работы</b>
+        </p>
+        <p>
+          Доставка еды с 10:00 до 19:00. Работаем без выходных
+        </p>
+        </div>
+        <div class="delivery_2">
+          <p>
+            <b>Точки самовывоза:</b>
+          </p>
+          <ul>
+            <li>проспект Людвига Свободи,52Б/1;</li>
+            <li>улица Героев Труда,24Б, 1 этаж;</li>
+            <li>проспект Победы,72Д.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  <div class="foot">
+    <div class="logo_foot">
+      <a href="#"><img src="images/BrandbookBPlogo-10%20(2)4.png" alt="#"></a>
+    </div>
+    <div class="foot_menu">
+      <a href="">Главная</a>
+      <a href="">Меню</a>
+      <a href="">Отзывы</a>
+      <a href="">Контакты</a>
+    </div>
+    <div class="contact">
+      <p>Позвонить сейчас:</p>
+      <p>+ 380 95 225 83 06</p>
+    </div>
+    <div
+            class="social">
+      <a href="https://www.instagram.com/babushkinprodukt/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/babushkinprodukt/"><i class="fab fa-facebook-f"></i></a>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/js_slick.js"></script>
+</body>
+</html>
